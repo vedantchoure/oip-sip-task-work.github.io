@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#left{
+    height: 100%;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1541411438265-4cb4687110f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+}
+#left h3{
+    position: absolute;
+    top: 5%;
+    font-weight: 600;
+    left: 19%;
+    font-size: 25px;
+    color:rgb(55, 54, 54);
+    font-family: voyage;
+    letter-spacing: 10px;
+}
+#content{
+    z-index: 999;
+    position: absolute;
+    top:45%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color:black;
+    font-weight:100;
+   font-family: voyage;
+   letter-spacing: 4px;
+
+}
+#content p{
+    position: absolute;
+    top:100%;
+    left: 10%;
+   font-family: cursive;
+   
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#content span{
+font-weight: 900;
+font-family: voyage;
+}
+#image{
+   background-image: url(https://images.unsplash.com/photo-1529172840709-b36d6f42aeea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 70%;
+   position: absolute;
+   left: 30%;
+}
+#image nav{
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+ 
+}
+#links{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+#links a{
+    text-decoration:none;
+    font-size: 20px;
+ color: black;
+}
+#line{
+    height: 30%;
+    width: 1%;
+    background-color:black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left:14%;
+    border-radius: 20%;
+}
+#button{
+    z-index: 99999;
+    position: absolute;
+    top: 77%;
+    left: 20%;
+    
+}
+#button button{
+   background-color: black;
+   color:greenyellow;
+   border-radius: 30%;
+}
+#icons{
+    position: absolute;
+    color: black;
+    top: 90%;
+    left: 90%;
+    gap: 10px;
+    font-size: 20px;
+}
